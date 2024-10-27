@@ -22,6 +22,13 @@
         * {
             font-family: "Poppins", serif;
         }
+        .fbs-img img:nth-child(2n+1){
+            filter: grayscale(100%);
+            
+        }
+        .card{
+            box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+        }
     </style>
 
 </head>
@@ -83,6 +90,70 @@
         <!-- Banner Ends -->
 
     </header>
+
+    <!-- Featured Bikes Section -->
+    <section class="featured-bike-section text-center mt-[6rem] flex flex-col items-center">
+       <div class="fbs-txt mb-[6rem]">
+        <h2 class="text-black text-[1.5rem] lg:text-[3rem] font-semibold">Fetured Bikes In This Year</h2>
+        <p class="text-[#E76F51] underline decoration-[#E76F51] font-semibold">Best bike collection</p>
+       </div>
+       <div class="fbs-img lg:flex flex-row items-center gap-x-[6rem]">
+        <img src="images/others/feature-bike.png" alt="" class="mb-[5rem] lg:mb-0">
+        <img src="images/others/feature-bike.png" alt="" class="mb-[5rem] lg:mb-0">
+        <img src="images/others/feature-bike.png" alt="" class="mb-[5rem] lg:mb-0">
+       </div>
+    </section>
+    <!-- Featured Bikse Section -->
+
+
+    <section class="latest-news mt-[5rem] px-[8rem]">
+        <h2 class="text-[2.5rem] font-semibold text-[#0A0826] mb-[2.5rem] text-center">Latest News</h2>
+
+        <div class="news-cards flex flex-col items-center lg:flex-row gap-x-[1.25rem]">
+            <!-- Card-1 starts -->
+            <div class="card p-[1.5rem] rounded-xl">
+                <div class="card-img rounded-lg mb-[2.75rem]">
+                    <img src="images/others/latest1.png" alt="" class="w-full">
+                </div>
+                <div class="card-txt">
+                    <h2 class="text-[#18191F] text-[1.5rem] font-semibold mb-4">Ducati XDIAVEL S-73</h2>
+                    <p class="text-[#6C6C6C] leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                    <button class="btn btn-lg bg-[#E76F51] font-medium  text-white mt-[2.5rem]">Read More</button>
+                </div>
+            </div>
+            <!-- card-1 ends -->
+
+            <!-- Card-2 starts -->
+            <div class="card p-[1.5rem] rounded-xl">
+                <div class="card-img rounded-lg mb-[2.75rem]">
+                    <img src="images/others/latest2.png" alt="" class="w-full">
+                </div>
+                <div class="card-txt">
+                    <h2 class="text-[#18191F] text-[1.5rem] font-semibold mb-4">2021 Honda CBR500R</h2>
+                    <p class="text-[#6C6C6C] leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                    <button class="btn btn-lg bg-[#E76F51] font-medium  text-white mt-[2.5rem]">Read More</button>
+                </div>
+            </div>
+            <!-- card-2 ends -->
+
+            <!-- Card-3 starts -->
+            <div class="card p-[1.5rem] rounded-xl">
+                <div class="card-img rounded-lg mb-[2.75rem]">
+                    <img src="images/others/latest3.png" alt="" class="w-full">
+                </div>
+                <div class="card-txt">
+                    <h2 class="text-[#18191F] text-[1.5rem] font-semibold mb-4">2021 Honda CBR500R</h2>
+                    <p class="text-[#6C6C6C] leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                    <button class="btn btn-lg bg-[#E76F51] font-medium  text-white mt-[2.5rem]">Read More</button>
+                </div>
+            </div>
+            <!-- card-3 ends -->
+
+            
+        </div>
+    </section>
+
+
 </body>
 
 </html>
